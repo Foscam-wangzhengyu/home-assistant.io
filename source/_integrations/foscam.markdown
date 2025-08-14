@@ -4,13 +4,14 @@ description: Instructions on how to integrate Foscam IP cameras within Home Assi
 ha_category:
   - Camera
 ha_iot_class: Local Polling
-ha_release: 0.7.3
+ha_release: 2025.8.1
 ha_codeowners:
   - '@krmarien'
 ha_domain: foscam
 ha_config_flow: true
 ha_platforms:
   - camera
+  - number
   - switch
 ha_integration_type: integration
 ---
@@ -25,7 +26,7 @@ There seems to be some issues within Foscam with lengthy passwords and passwords
 
 ### Controllable Features
 
-If your camera supports it, a switch "Sleep" will be added to put the camera in sleep mode.
+manual switches for infrared, device indicator light, white light, siren alarm, image flip/mirror, sleep mode; volume controls for device and intercom; and HDR and WDR toggles.
 
 ### Streams
 
