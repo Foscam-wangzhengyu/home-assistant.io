@@ -4,9 +4,9 @@ description: Instructions on how to integrate Foscam IP cameras within Home Assi
 ha_category:
   - Camera
 ha_iot_class: Local Polling
-ha_release: 2025.8.1
+ha_release: 0.7.3
 ha_codeowners:
-  - '@krmarien'
+  - '@Foscam-wangzhengyu'
 ha_domain: foscam
 ha_config_flow: true
 ha_platforms:
