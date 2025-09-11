@@ -25,8 +25,17 @@ There seems to be some issues within Foscam with lengthy passwords and passwords
 {% endnote %}
 
 ### Controllable Features
-
-manual switches for infrared, device indicator light, white light, siren alarm, image flip/mirror, sleep mode; volume controls for device and intercom; and HDR and WDR toggles.
+Switches for:
+- Infrared
+- Device indicator light
+- white light
+- siren alarm
+- image flip/mirror
+- sleep mode
+- HDR
+- WDR
+- Device Volume
+- Speak Volume
 
 ### Streams
 
