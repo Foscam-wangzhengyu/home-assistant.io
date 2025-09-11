@@ -34,8 +34,8 @@ Switches for:
 - Sleep
 - HDR
 - WDR
-- Device Volume
-- Speak Volume
+- Device volume
+- Speak volume
 
 ### Streams
 
