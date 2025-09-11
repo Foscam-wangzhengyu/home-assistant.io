@@ -28,10 +28,10 @@ There seems to be some issues within Foscam with lengthy passwords and passwords
 Switches for:
 - Infrared
 - Device indicator light
-- white light
-- siren alarm
-- image flip/mirror
-- sleep mode
+- White light
+- Siren alarm
+- Image flip/mirror
+- Sleep
 - HDR
 - WDR
 - Device Volume
