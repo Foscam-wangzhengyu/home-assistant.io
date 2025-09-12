@@ -31,7 +31,7 @@ The Foscam integration provides the following entities.
 
 #### Camera
 - **Streams**
-  - **Description**: Most Foscam IP Cameras supports two video streams, by default the `Main` stream is the high quality stream while the `Sub` stream is a lower     quality stream. These streams can be configured in your camera preferences.
+  - **Description**: Most Foscam IP Cameras support two video streams, by default the `Main` stream is the high quality stream while the `Sub` stream is a lower     quality stream. These streams can be configured in your camera preferences.
   - **Available for machines**: all.
     
 #### Switch
@@ -46,7 +46,7 @@ The Foscam integration provides the following entities.
 - **White light**
   - **Description**: Control the camera’s white light illuminator.
   - **Available for machines**: Cameras equipped with white light illumination.
-  - **Remarks**: Since there is currently no mechanism to determine device capabilities for conditionally displaying the white light switch, unsupported models       will still show the switch — but in a disabled state. This will be refined in a future update.
+  - **Remarks**: Since there is currently no mechanism to determine device capabilities for conditionally displaying the white light switch, unsupported models will still show the switch — but in a disabled state. This will be refined in a future update.
 
 - **Siren alarm**
   - **Description**: Control the device’s alarm.
@@ -57,7 +57,7 @@ The Foscam integration provides the following entities.
   - **Available for machines**: all.
 
 - **Sleep**
-  - **Description**: Toggle sleep mode, when enabled, the device enters sleep state..
+  - **Description**: Toggle sleep mode, when enabled, the device enters sleep state.
   - **Available for machines**: all.
 
 - **HDR**
@@ -91,7 +91,7 @@ The Foscam integration provides the following entities.
 
 #### Action `foscam.ptz_preset`
 - **Direct the device to a specified preset position.**
-  - **Description**:If your Foscam camera supports <abbr title="pan, tilt, and zoom">PTZ</abbr> presets, you will be able to move the camera to a predefined          preset using the preset name.
+  - **Description**: If your Foscam camera supports <abbr title="pan, tilt, and zoom">PTZ</abbr> presets, you will be able to move the camera to a predefined          preset using the preset name.
 
 | Data attribute | Description |
 | -----------------------| ----------- |
