@@ -13,6 +13,7 @@ ha_platforms:
   - camera
   - number
   - switch
+  - event
 ha_integration_type: integration
 ---
 
@@ -75,6 +76,15 @@ The Foscam integration provides the following entities.
 
 - **Speak volume**
   - **Description**: Adjust the device’s intercom volume.
+  - **Available for machines**: all.
+    
+#### EVENT
+- **Motion detect event**
+  - **Description**: It can be triggered by the device's motion detection, human detection, face detection, vehicle detection, or pet detection alerts.
+  - **Available for machines**: all.
+
+- **Sound detect event**
+  - **Description**: It can be triggered by the device's sound detection alert.
   - **Available for machines**: all.
 
 #### Action `foscam.ptz`
